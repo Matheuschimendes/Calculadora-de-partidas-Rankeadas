@@ -25,6 +25,7 @@ depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve s
 
 Foram feitas interações com a interface do usuário, assim fazendo com que o próprio insira os pontos adquiridos da vitórias e os da derrota, com isso retornando seus resultados.
 
+
     Elementos do DOM: Foram adicionadas referências aos elementos HTML usando document.getElementById para capturar valores de entrada do usuário e para exibir o resultado.
 
     Atribuição de Valores dos Inputs: A função calcularRankeada agora utiliza document.getElementById("vitorias").value e document.getElementById("derrotas").value para obter os valores inseridos pelo usuário nos campos de entrada com IDs "vitorias" e "derrotas", respectivamente.
@@ -33,6 +34,11 @@ Foram feitas interações com a interface do usuário, assim fazendo com que o p
 
     Retorno de Valores: A função continua retornando um objeto contendo o saldo de vitórias e o nível alcançado.
 
+
+Validação de Campos Vazios:
+
+    A função validation() foi criada para ser chamada antes do cálculo ser realizado. Ela verifica se os campos de vitórias e derrotas estão preenchidos.
+    Se algum dos campos estiver vazio, um alerta é exibido para informar ao usuário que ambos os campos precisam ser preenchidos antes do cálculo.
 ## Saída
 
 Ao final deve se exibir uma mensagem:

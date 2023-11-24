@@ -1,6 +1,7 @@
 
 // Exemplo de utilização da função
 
+
 //A função interage com o Document Object Model (DOM) para obter valores de elementos HTML. Ela busca valores de campos de entrada com os IDs "vitorias" e "derrotas" usando document.getElementById("ID") e os converte para números inteiros usando parseInt().
 function calcularRankeada(){
 
@@ -8,9 +9,11 @@ function calcularRankeada(){
     let derrotas = parseInt(document.getElementById("derrotas").value)
 
     //calcula o saldo de vitórias subtraindo o número de derrotas do número de vitórias.
-    let saldoVitorias = document.getElementById("resultado").innerHTML = vitorias - derrotas
+    // let saldoVitorias = document.getElementById("resultado").innerHTML = vitorias - derrotas
+    let saldoVitorias = vitorias - derrotas;
 
     let nivel = '' 
+   
 
     //Usando estruturas condicionais (if...else if...else), a função verifica em qual faixa de quantidade de vitórias o jogador se encaixa e atribui um nível correspondente (Ferro, Bronze, Prata, etc.) à variável nivel.
     if( vitorias < 10){
@@ -29,11 +32,34 @@ function calcularRankeada(){
         nivel = "Imortal"
     }
 
+    
+
     //O resultado, composto pelo saldo de vitórias e o nível determinado, é exibido no HTML. Ele é atribuído ao elemento com o ID "resultado" usando document.getElementById("resultado").innerHTML.
     document.getElementById("resultado").innerHTML = `O Herói tem saldo de ${saldoVitorias} está no nível ${nivel}`
-    
+
     return {saldoVitorias, nivel} // A função retorna um objeto contendo o saldo de vitórias e o nível alcançado.
+    
 }
+
+//Validação de campos
+function validation(){
+    let vitorias = document.getElementById("vitorias").value;
+    let derrotas = document.getElementById("derrotas").value;
+
+    if(vitorias !== '' && derrotas !== ''){
+        calcularRankeada();
+    } else if(vitorias == ''){
+        alert("Preencha o campo de vitórias.");
+        
+    } else if(derrotas == ''){
+        alert("Preencha o campo de Derrotas.");
+        
+    }
+}
+
+
+
+
 
 
 

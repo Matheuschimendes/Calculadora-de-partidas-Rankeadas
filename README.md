@@ -1,4 +1,8 @@
 # 2️⃣ Desafio Calculadora de partidas Rankeadas
+https://github.com/Matheuschimendes/js-developer-pokedex/assets/93441084/d5d96de5-be8f-41d9-b3b6-b8455423a8cb
+<video>
+https://github.com/Matheuschimendes/js-developer-pokedex/assets/93441084/d5d96de5-be8f-41d9-b3b6-b8455423a8cb
+</video>
 
 **O Que deve ser utilizado**
 
@@ -39,6 +43,8 @@ Validação de Campos Vazios:
 
     A função validation() foi criada para ser chamada antes do cálculo ser realizado. Ela verifica se os campos de vitórias e derrotas estão preenchidos.
     Se algum dos campos estiver vazio, um alerta é exibido para informar ao usuário que ambos os campos precisam ser preenchidos antes do cálculo.
+
+
 ## Saída
 
 Ao final deve se exibir uma mensagem:

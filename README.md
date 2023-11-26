@@ -1,8 +1,4 @@
 # 2️⃣ Desafio Calculadora de partidas Rankeadas
-https://github.com/Matheuschimendes/js-developer-pokedex/assets/93441084/d5d96de5-be8f-41d9-b3b6-b8455423a8cb
-<video>
-https://github.com/Matheuschimendes/js-developer-pokedex/assets/93441084/d5d96de5-be8f-41d9-b3b6-b8455423a8cb
-</video>
 
 **O Que deve ser utilizado**
 
@@ -43,6 +39,18 @@ Validação de Campos Vazios:
 
     A função validation() foi criada para ser chamada antes do cálculo ser realizado. Ela verifica se os campos de vitórias e derrotas estão preenchidos.
     Se algum dos campos estiver vazio, um alerta é exibido para informar ao usuário que ambos os campos precisam ser preenchidos antes do cálculo.
+
+
+
+<img width="1440" alt="Screenshot 2023-11-26 alle 15 44 58" src="https://github.com/Matheuschimendes/Calculadora-de-partidas-Rankeadas/assets/93441084/6b7c8b80-45e7-4c89-b83e-e1b870089bb8">
+<img width="1434" alt="Screenshot 2023-11-26 alle 15 44 51" src="https://github.com/Matheuschimendes/Calculadora-de-partidas-Rankeadas/assets/93441084/a8ab0703-c477-4315-a7f7-0bf11d63efaa">
+
+
+https://github.com/Matheuschimendes/Calculadora-de-partidas-Rankeadas/assets/93441084/8e873b39-e44b-4d83-b4a8-65e35fbbee99
+
+
+
+
 
 
 ## Saída

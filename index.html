@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora de Partidas Rankeadas</title>
 
+    <link rel="stylesheet" href="style.css" />
     <script src="/app.js"></script>
   </head>
   <body>
-    <form onsubmit="validation(); return false">
-      <label for="">Vitorias</label>
-      <input type="number" name="number" id="vitorias" />
-      <br />
-      <br />
-      <label for="">Derrotas</label>
-      <input type="number" name="number" id="derrotas" />
-      <br>
-      <br>
-      <button id="calcular">Resultado</button>
-    </form>
-
-    <p id="resultado"></p>
+    <div class="container">
+      <div class="container-form">
+        <form onsubmit="validation(); return false">
+          <label for="">Vitorias</label>
+          <input type="number" name="number" id="vitorias" />
+          <br />
+          <br />
+          <label for="">Derrotas</label>
+          <input type="number" name="number" id="derrotas" />
+          <br />
+          <br />
+          <button id="calcular">Resultado</button>
+        </form>
+      </div>
+      <div class="result">
+        <p id="resultado"></p>
+      </div>
+    </div>
     
+   
   </body>
 </html>

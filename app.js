@@ -35,7 +35,7 @@ function calcularRankeada(){
     
 
     //O resultado, composto pelo saldo de vitórias e o nível determinado, é exibido no HTML. Ele é atribuído ao elemento com o ID "resultado" usando document.getElementById("resultado").innerHTML.
-    document.getElementById("resultado").innerHTML = `O Herói tem saldo de ${saldoVitorias} está no nível ${nivel}`
+    document.getElementById("resultado").innerHTML = `O Herói tem saldo de <span>${saldoVitorias}</span> está no nível <span>${nivel}</span>`
 
     return {saldoVitorias, nivel} // A função retorna um objeto contendo o saldo de vitórias e o nível alcançado.
     
